@@ -7,7 +7,7 @@ h1{
     font-size: 44px;
 }
 h2{
-    font-weight: 600;
+    font-weight: 500;
 }
 .container {
     max-width: 1400px;
@@ -30,23 +30,35 @@ section {
     border-radius: 8px;
 }
 .widget-weather{
+    width: 100%;
     max-width: 300px;
     max-height: 100%;
     font-size: 14px;
+    background: linear-gradient(to top,
+        #002855 0%,
+        #002855 60%,
+        #0466c8 50%,
+    #0466c8 100%);
+    color: white;
 }
 .date-header{
-    background-color: blanchedalmond;
     text-align: left;
     font-size: 18px;
     line-height: 0.5;
 }
 .city{
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 400;
 }
 .temperature{
     font-size: 44px;
     text-align: right;
     margin: 5px 5px;
     font-weight: 600;
+}
+.weather-conditions{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    text-align: center;
+    grid-gap: 4px;
 }
