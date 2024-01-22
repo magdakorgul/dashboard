@@ -9,6 +9,9 @@ h1{
 h2{
     font-weight: 500;
 }
+h3{
+    font-weight: 450;
+}
 .container {
     max-width: 1400px;
     margin: 0 auto;
@@ -41,11 +44,7 @@ section {
     #0466c8 100%);
     color: white;
 }
-.date-header{
-    text-align: left;
-    font-size: 18px;
-    line-height: 0.5;
-}
+
 .city{
     font-size: 16px;
     font-weight: 400;
@@ -61,4 +60,32 @@ section {
     grid-template-columns: 6fr 6fr;
     text-align: center;
     grid-gap: 4px;
+}
+.header{
+    text-align: left;
+    font-size: 18px;
+    line-height: 0.5;
+}
+
+.news-columns{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 10px 5px;
+
+}
+img {
+    max-width: 150px;
+    padding: 3px 3px;
+    margin: 3px 3px;
+    border-radius: 10px;
+}
+.news-content 
+
+h3{
+    font-size: 14px;
+    line-height: 1;
+}
+p{
+    font-size: 12px;
+    padding: 0 0;
 }
