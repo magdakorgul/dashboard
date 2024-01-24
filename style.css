@@ -10,6 +10,7 @@ h1{
 }
 h2{
     font-weight: 500;
+    font-size: 24px;
 }
 h3{
     font-weight: 500;
@@ -106,47 +107,55 @@ img {
     background: white;
     color: #002855;
     max-width: 300px;
-    
-}
-.main-screen{
 
 }
-.categories h4{
-    display: inline-block;
-    float: left;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 25px 20px;
-}
-.categories p{
-    display: inline-block;
-    float: right;
-    font-size: 14px;
-    font-weight: 400;
-    margin: 25px 20px 50px 0;
+.widget-player h2{
+    margin-top: 10px;
 }
 .lesson-one{
-    grid-area: top;
-    width: 300px;
+    width: 280px;
     height: 100px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
+    margin-top: 10px;
     background-color: rgb(196, 215, 178);
     border-radius: 5px;
     text-align: left;
+    padding-left: 15px;
+    padding-top: 30px;
+}
+
+.lesson-one:hover{
+    cursor:pointer;
+    background-color: rgb(168, 185, 152);
 }
 .lesson-two{
     grid-area: left;
-    width: 142px;
-    height: 200px;
+    width: 128px;
+    height: 150px;
     background-color: rgb(228, 193, 134);
     border-radius: 5px;
+    padding-left: 15px;
+        padding-top: 30px;
 }
+
+.lesson-two:hover {
+    cursor: pointer;
+    background-color: rgb(200, 170, 118);
+}
+
 .lesson-three{
     grid-area: right;
-    width: 142px;
-    height: 200px;
+    width: 128px;
+    height: 150px;
     background-color: rgb(241, 187, 187);
     border-radius: 5px;
+    padding-left: 15px;
+        padding-top: 30px;
+}
+
+.lesson-three:hover {
+    cursor: pointer;
+    background-color:rgb(212, 162, 162);
 }
 
 .blocks{
@@ -156,5 +165,8 @@ img {
     grid-template-areas:
     "top top top top top top"
     "left . . . . right";
-    margin-top: 100px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    
 }
