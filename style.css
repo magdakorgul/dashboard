@@ -83,20 +83,19 @@ img {
     margin: 3px 3px;
     border-radius: 10px;
 }
-.news-content 
-
-h3{
+.news-content h3{
     font-size: 14px;
     line-height: 1;
 
 }
-p{
+.news-content p{
     font-size: 12px;
     padding: 0 0;
 }
 .widget-player{
     background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
     color: white;
+    max-width: 300px;
 }
 .main-screen{
 
@@ -108,10 +107,39 @@ p{
     font-weight: 400;
     margin: 25px 20px;
 }
-p{
+.categories p{
     display: inline-block;
     float: right;
     font-size: 14px;
     font-weight: 400;
-    margin: 25px 20px;
+    margin: 25px 20px 50px 0;
+}
+.lesson-one{
+    grid-area: top;
+    max-width: 500px;
+    max-height: 150px;
+    margin-bottom: 50px;
+    background-color: aquamarine;
+}
+.lesson-two{
+    grid-area: left;
+    max-width: 50px;
+    max-height: 75px;
+    background-color: rebeccapurple;
+}
+.lesson-three{
+    grid-area: right;
+    max-width: 50px;
+        max-height: 75px;
+        background-color: red;
+}
+
+.blocks{
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "top top top top top top"
+    "left . . . . right";
+    margin-top: 100px;
 }
