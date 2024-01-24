@@ -28,9 +28,9 @@ section {
 }
 .grid{
     display:grid;
-    grid-gap: 1px;
     grid-template-columns: 2fr 2fr 2fr;
     justify-content: space-around;
+    justify-items: center;
 }
 .card{
     background: white;
@@ -191,6 +191,7 @@ font-weight: 400;
 
 .grid{
 grid-template-columns: 1fr;
+justify-items: start;
 }
 
 .container {
@@ -219,7 +220,7 @@ grid-template-columns: 1fr;
 }
 
 img {
-    width: 300px;
+    max-width: 300px;
     padding: 3px 3px;
     margin: 3px 3px;
     border-radius: 10px;
@@ -237,8 +238,29 @@ img {
     padding-top: 0;
 
 }
+
 .widget-player {
-    width: 300px;
-    max-height: 480px;
+    max-width: 400px;
+    
 }
+.lesson-one {
+    width: 300px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 24px;
+   
+}
+.lesson-two {
+    width: 140px;
+margin-right: 20px;  
+margin-left: 5px; 
+font-size: 24px;
+}
+.lesson-three {
+    width: 140px;
+    margin-left: 20px;
+    margin-right: 0;
+    font-size: 24px;
+}
+
 }
