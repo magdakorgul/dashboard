@@ -1,16 +1,18 @@
 body{
     font-family: 'Poppins',
         sans-serif;
-        background-color: rgb(255, 230, 197);
+        background-color: #e7eaf6;
 }
 h1{
-    font-size: 44px;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 h2{
     font-weight: 500;
 }
 h3{
-    font-weight: 450;
+    font-weight: 500;
 }
 .container {
     max-width: 1400px;
@@ -28,7 +30,7 @@ section {
     justify-content: space-around;
 }
 .card{
-    background-color: aquamarine;
+    background: white;
     padding: 10px 10px;
     margin: 10px 10px;
     border-radius: 8px;
@@ -94,16 +96,17 @@ img {
 
 }
 .news-content h3:hover{
-    color: red;
+    color: #a2a8d3;
     cursor: pointer;
 }
 .news-columns img:hover{
     cursor: pointer;
 }
 .widget-player{
-    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
-    color: white;
+    background: white;
+    color: #002855;
     max-width: 300px;
+    
 }
 .main-screen{
 
@@ -124,22 +127,26 @@ img {
 }
 .lesson-one{
     grid-area: top;
-    max-width: 500px;
-    max-height: 150px;
+    width: 300px;
+    height: 100px;
     margin-bottom: 50px;
-    background-color: aquamarine;
+    background-color: rgb(196, 215, 178);
+    border-radius: 5px;
+    text-align: left;
 }
 .lesson-two{
     grid-area: left;
-    max-width: 50px;
-    max-height: 75px;
-    background-color: rebeccapurple;
+    width: 142px;
+    height: 200px;
+    background-color: rgb(228, 193, 134);
+    border-radius: 5px;
 }
 .lesson-three{
     grid-area: right;
-    max-width: 50px;
-        max-height: 75px;
-        background-color: red;
+    width: 142px;
+    height: 200px;
+    background-color: rgb(241, 187, 187);
+    border-radius: 5px;
 }
 
 .blocks{
