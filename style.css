@@ -94,3 +94,24 @@ p{
     font-size: 12px;
     padding: 0 0;
 }
+.widget-player{
+    background: linear-gradient(110.6deg, rgb(156, 116, 129) -18.3%, rgb(67, 54, 74) 16.4%, rgb(47, 48, 67) 68.2%, rgb(27, 23, 36) 99.1%);
+    color: white;
+}
+.main-screen{
+
+}
+.categories h4{
+    display: inline-block;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 25px 20px;
+}
+p{
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 25px 20px;
+}
